@@ -1,0 +1,84 @@
+body {
+    font-family: monospace;
+    font-size: 14pt;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#instructions {
+   margin: 3em 1.5em 1.5em 1.5em;
+}
+
+#footer {
+    font-size: 12pt;
+    position: absolute;
+    left:0px;
+    bottom:0px;
+    height:100px;
+    width:100%;
+}
+
+#github-link {
+    display: none;
+}
+
+.sound-overlay {
+    text-align: center;
+    z-index: 20;
+    border-radius: 6px;
+    position:fixed;
+    width: 340px;
+    height: 190px;
+    top: 50%;
+    left: 50%;
+    margin-left: -170px; /* Negative half of width. */
+    margin-top: -180px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0 0 0 1500px rgba(0, 0, 0, .5);
+    background: white;
+}
+
+.accept-sound {
+    cursor: pointer;
+    padding: 30px 50px 30px 50px;
+    margin: 10px;
+    border: none;
+    font-family: monospace;
+}
+
+.d-none {
+    display: none;
+}
+
+.hide {
+    display: none;
+}
+
+#pianocontainer {
+    position: relative;
+    display: none;
+}
+
+.diagnostics {
+    padding: 0 0 0 1em;
+}
+
+#pianovisiual {
+}
+
+#reflectioneffect {
+    background-image: linear-gradient(to bottom right, rgb(214, 255, 255), rgb(244, 255, 255));
+    opacity: 0.3;
+    z-index: 10;
+    height: 230px;
+    width: 2080px;
+    position: absolute;
+}
+
+#pianovisualreflection {
+    transform: scaleY(-1);
+}

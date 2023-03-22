@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>backwards piano</title>
+<link rel="icon" type="image/png" href="/favicon.png"/>
+</head>
+<body>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+  <link rel="stylesheet" href="beautiful-piano/styles.css">
+  <ol id="instructions">
+  <li id="browser-status"></li>
+  <li id="midi-status">plug in a MIDI device or use keys ASDFGHJK. try refreshing if device is not detected.</li>
+  </ol>
+  <div id="pianocontainer">
+      <div id="pianovisualreflection"></div>
+      <div id="pianovisual"></div>
+      <div id="reflectioneffect"></div>
+  </div>
+  <div class="sound-overlay d-none">
+      <h3>this website will make sound</h3>
+      <button class="accept-sound" onclick="acceptSound()"><b>i'll allow it</b></button>
+  </div>
+  <script src="beautiful-piano/dist/piano.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/tone"></script>
+  <script src="js/main.js"></script>
+  <footer id="footer" style="text-align:center;">
+      <p id="github-link">view this project on <a href="https://github.com/jminjie/fourhands">Github</a></p>
+      <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="jminjie" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+  </footer>
+</body>
+</html>
