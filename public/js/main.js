@@ -19,10 +19,10 @@ function resizeKeyboard() {
   containerNode.style.width = `${w * 100}%`;
   containerNode.style.left = `-${(((w * 100) - 100) / 2) - 2}%`;
   containerNode.style.display = `inline-block`;
-
   let reflectionNode = document.querySelector('#pianovisualreflection');
-  reflectionNode.style.padding = `0 0 343px 0`;
-    /*padding: 0 0 240px 0;*/
+
+  let h = window.innerHeight;
+  reflectionNode.style.padding = `0 0 ${Math.max(240, h*0.35)}px 0`;
 }
 
 
