@@ -5,6 +5,12 @@ A backwards MIDI piano (keys are mirrored) with simple visual effects.
 For self hosting, after cloning the repo run `npm install` to install necessary
 packages.
 
+To clone beautiful-piano run
+```
+cd public;
+git clone https://github.com/musicjs/beautiful-piano.git
+```
+
 Deploy with `node index.js debug`. This will serve the files
 needed for the page (index.html and js/) and also start the NodeJs server
 (index.js).
